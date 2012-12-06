@@ -4,9 +4,9 @@
         "email": "contato@cranic.com.br",
         "url": "https://github.com/cranic"
     },
-    "name": "filer-parter",
+    "name": "file-parter",
     "description": "Generate a hash table from a file by spliting it.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/cranic/node-file-parter",
     "repository": {
         "type": "git",

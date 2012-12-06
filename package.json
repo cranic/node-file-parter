@@ -6,16 +6,13 @@
     },
     "name": "file-parter",
     "description": "Generate a hash table from a file by spliting it.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage": "https://github.com/cranic/node-file-parter",
     "repository": {
         "type": "git",
         "url": "git://github.com/cranic/node-file-parter.git"
     },
     "main" : "./app.js",
-    "bin" : {
-        "file-parter" : "./bin/file-parter"
-    },
     "scripts" : {
         "test" : "vows --spec"
     },

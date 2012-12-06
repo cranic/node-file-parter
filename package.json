@@ -1,0 +1,30 @@
+{
+    "author": {
+        "name": "Cranic Tecnologia",
+        "email": "contato@cranic.com.br",
+        "url": "https://github.com/cranic"
+    },
+    "name": "filer-parter",
+    "description": "Generate a hash table from a file by spliting it.",
+    "version": "0.0.1",
+    "homepage": "https://github.com/cranic/node-file-parter",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/cranic/node-file-parter.git"
+    },
+    "main" : "./app.js",
+    "bin" : {
+        "file-parter" : "./bin/file-parter"
+    },
+    "scripts" : {
+        "test" : "vows --spec"
+    },
+    "dependencies": {
+        "coffee-script": "1.3.x",
+        "async" : "0.1.x",
+        "commander" : "1.0.x"
+    },
+    "engines": {
+        "node": ">=0.8.x"
+    }
+}
